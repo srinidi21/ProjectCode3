@@ -24,7 +24,7 @@ driver.manage().window().maximize();
 WebElement x = driver.findElement(By.id("twotabsearchtextbox"));
 x.sendKeys("iphone");
 driver.findElement(By.xpath("(//input[@type='submit'])[1]")).click();
-driver.findElement(By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]")).click();
+driver.findElement(By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[2]")).click();
 
 
 
